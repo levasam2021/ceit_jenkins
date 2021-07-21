@@ -1,0 +1,67 @@
+What is shell?					Tueday 8th of June 2021
+
+A shell is basically a translator which 
+sits between the user and the OS/Kernel.
+
+BASH.
+
+Bash or Born Again shell is the basic shell that 
+you can find in all linux distribution. It is the 
+most potatble shell.
+
+Zsh
+
+It is an extention of the BASH shell. It allows the user to share 
+all command history accross the terminal.
+
+FISH 
+
+Know as the Friendly and Interactive shell.
+Also an extension of the BASH shell but has
+features autocomplete. 
+
+TCSH
+
+Also an extention of the BASH shell. Basically use 
+for shell scripting. 
+
+What is a Kernel?
+The Kernel is the core of all operation and 
+it has four main tasks it performs.
+
+1. Resource Management.
+2. Memory management.
+3. Device management.
+4. System calls.
+
+Basic Linux.
+
+1. Navigation. - cd 
+2. Creating Files and Folders - mkdir/ touch
+3. Copying and Moving - cp and mv
+4. Deleting - rm
+5. Installing softwares - sudo yum install <packagename>   
+
+More Basic Commands..
+
+pwd - present wroking directory
+whoamoi - checking user
+date - date
+history - see all previous commands
+cp - copy
+rm - delete
+man - manual <man cp>
+exit - exit terminal
+who - show you al the logged in users including 
+	the running processes
+
+ssh - connects to cloud or online system
+	ssh <username>@<ip-address>
+
+cat - allows you to see the contents of a file
+	and if the file is not available it 
+	will will create the file for you.
+
+vi - vim (editing contents of a file)
+ 
+
