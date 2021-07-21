@@ -1,0 +1,90 @@
+ECHO									wednesday 9th of June 2021
+		
+
+The echo command is just for out
+putting a piece a string or text
+to the terminal.
+
+Syntax
+
+echo [option] [string]
+
+echo 'Hello World' --> Hello World
+
+-n - prints the output on a new line
+-e - This allows the usage of back slashes
+     \-t or \-v
+-b - removes white spaces between words
+-t - Horizontal tab
+-v - Vertical tab.
+
+
+Set and Unset Commands
+
+Set is a biult cammands which is used
+to assign a value to a variable and 
+unset is used to unasign a value to 
+a variable.
+
+Export Cammand
+
+Used to create Enironment variable
+
+	Options		Task
+	-b		mostly used for
+			job termination
+	-e		Exits immediatly if a 
+			command exist within a 
+			non zero status		
+	-m		Job will be enable
+	
+
+Command for Vim.
+
+i - change to insert
+O - inserting into the previous line
+o - inserting to the next line 
+a - appending text after the cursor
+A - Appending text at the end of the line
+
+Users/ Groups
+
+-The purpose of the user and groups 
+ are for access and permisions
+-Every user has their own directory
+-Even the processes need permision to
+ access specific files and locations.
+
+USERS
+         			
+-Owner of the file
+-System uses User UID to manage user
+System identifies deamon processes 
+as users
+
+GROUP
+								
+-Contains two or more users
+- All users in the same group have the 
+ same permision 
+-Groups are identified using the GID.
+
+PROCESSES
+
+-A process can open a file and even 
+ read or write to a file.
+-If processis active and using a file, 
+ and the file is deleted/cannot be 
+ deleted, the is still available in memory.
+-There are 3 types of processes.
+ 1. Real UID
+ 2. Effective UID
+ 3. User UID 
+
+
+
+
+
+
+	
+
